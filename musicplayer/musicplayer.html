@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="player">
+        <div class="music-info">
+            <h2 id="title">Song Title</h2>
+            <h3 id="artist">Artist Name</h3>
+        </div>
+        <audio id="audio" src="song1.mp3"></audio>
+       <div class="controls">
+    <button id="prev">
+        <img src="https://img.icons8.com/ios-filled/50/000000/skip-to-start.png" alt="Previous">
+    </button>
+    <button id="play">
+        <img id="play-icon" src="https://img.icons8.com/ios-filled/50/000000/play.png" alt="Play">
+    </button>
+    <button id="next">
+        <img src="https://img.icons8.com/ios-filled/50/000000/end.png" alt="Next">
+    </button>
+</div>
+        <div class="progress-container">
+            <div class="progress" id="progress"></div>
+        </div>
+        <div class="current-time" id="current-time">0:00</div>
+        <div class="duration" id="duration">0:00</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
